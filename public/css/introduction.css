@@ -1,0 +1,241 @@
+*{margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    color: inherit;
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.logo > .main-logo{
+    width: 100px;
+    height: 100px;
+}
+#se {
+    border: none;
+    background-color: rgb(243, 243, 243);
+    height: 40px;
+    padding-right: 10px;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.dropdown-nav {
+position: relative;
+height: 6vh;
+background-color: white;
+}
+
+.dropdown-nav .dropdown-preview {
+display: flex;
+justify-content: space-around;
+align-items: center;
+/* padding-top: 10px; */
+height: 6vh;
+}
+
+.dropdown-nav .dropdown-preview ul {
+display: flex;
+justify-content: space-around;
+width: 60%;
+}
+
+.dropdown-nav .dropdown-preview ul li {
+font-weight: bold;
+cursor: pointer;
+}
+.dropdown-content {
+transition: 0.45s;
+height: 0;
+overflow: hidden;
+}
+
+.dropdown-preview:hover+.dropdown-content,
+.dropdown-content:hover {
+position: absolute;
+height: 30vh;
+border-top: 1px solid lightgray;
+border-bottom: 1px solid black;
+z-index: 100;
+background-color: white;
+left: 0;
+right: 0;
+top: 6vh;
+}
+
+.dropdown-content {
+display: flex;
+justify-content: center;
+gap: 25px;
+}
+
+.dropdown-content .row {
+width: 250px;
+position: relative;
+margin-top: 20px;
+}
+.dropdown-content > .row > .column {
+    text-align: center;
+}
+
+.dropdown-content .row .column {
+display: flex;
+flex-direction: column;
+}
+
+.dropdown-content .row .column a {
+color: gray;
+line-height: 30px;
+}
+
+.dropdown-content .row .column a:hover {
+text-decoration: underline;
+}
+
+.layout {
+    width: 100%;
+    height: 300px;
+    background-image: url("/public/img/s_bg_03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.layout > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.layout > .tt1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+article > p {
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid lightgray;
+    width: 80%;
+    margin: 0 auto;
+}
+aside {
+    padding-top: 20px;
+}
+.aside-content {
+    border: 1px solid rgb(157, 156, 156);
+    background-color: rgb(233, 227, 227);
+    width: 80%;
+    margin: 0 auto;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.aside-content > button {
+    padding-left: 20px;
+    text-align: start;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+.aside-content > input {
+    width: 450px;
+    height: 45px;
+}
+footer {
+    padding-top: 40px;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+.footer{
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+}
+.footer > p {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    font-size: 20px;
+}
+.img-box {
+    padding-top: 20px;
+}
+footer > .img-box{
+    width: 100%;
+    height: 100px;
+    padding-bottom: 300px;
+}
+.img-box > ul,
+.img-box2 > ul,
+.img-box3 > ul,
+.img-box4 > ul,
+.img-box5 > ul
+{
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+    display: flex;
+}
+.img-box > ul > li:nth-child(2),
+.img-box2 > ul > li:nth-child(2),
+.img-box3 > ul > li:nth-child(2),
+.img-box4 > ul > li:nth-child(2),
+.img-box5 > ul > li:nth-child(2)
+ {
+    padding-left: 50px;
+}
+.img-box > ul > li:nth-child(3),
+.img-box2 > ul > li:nth-child(3),
+.img-box3 > ul > li:nth-child(3),
+.img-box4 > ul > li:nth-child(3),
+.img-box5 > ul > li:nth-child(3)
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+footer > .img-box2 > ul >li > img,
+footer > .img-box3 > ul >li > img,
+footer > .img-box4 > ul >li > img,
+footer > .img-box5 > ul >li > img
+{
+    width: 340px;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.img-box2, .img-box3, .img-box4, .img-box5 {
+    width: 100%;
+    height: 350px;
+}
+
+
+.hide-footer{
+    background-color: #000;
+    color: #fff;
+    height: 300px;
+}
+.footer_header{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    line-height: 100px;
+    font-size: 20px;
+    margin-top: 300px;
+    /* border-right: 1px solid lightgray; */
+}
+.notice{
+    line-height: 50px;
+}

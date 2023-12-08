@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인페이지</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+        <img src="./img/right-logo.gif" alt="sns" class="insta">
+        <img src="./img/pngwing.com.png" alt="logo" class="main-logo">
+        <input type="search" id="search" placeholder="검색어를 입력하세요.">
+        </div>
+    </header>
+    <hr>
+    <nav class="dropdown-nav">
+        <div class="dropdown-preview">
+          <ul>
+            <li><a href="#">캠핑장 찾기</a></li>
+            <li><a href="#">캠핑 플러스</a></li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+        </div>
+        <div class="dropdown-content">
+          <div class="row">
+            <div class="column">
+              <a href="search.ejs">캠핑장 검색</a>
+              <a href="#">지도로 검색</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <a href="#">캠핑소식</a>
+              <a href="#">안전한캠핑즐기기</a>
+              <a href="introduction.ejs">캠핑장 안전수칙 동영상</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <a href="#">공지사항</a>
+              <a href="#">캠핑장정보 수정요청</a>
+              <a href="#">등록 야영장 확인 문의</a>
+              <a href="#">캠핑장 공지사항</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <hr>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <img src= "./img/m_bg_01.jpg" alt="메인로고-1" class="swiper-slide slide01">
+            <img src= "./img/m_bg_02.jpg" alt="메인로고-2" class="swiper-slide slide02">
+            <img src= "./img/m_bg_03.jpg" alt="메인로고-3" class="swiper-slide slide03">
+            <!-- <img src="./img/m_bg_01.jpg" alt="메인로고-1" class="swiper-slide slide01"> -->
+        </div>
+    </div>
+    <hr>
+    <li class="text">여행지 추천</li>
+    <div class="section">
+       <div class="img_div">
+        <img src="./img/동해.jpg" alt="img">
+        <img src="./img/안산.jpg" alt="img">
+        <img src="./img/울진.jpg" alt="img">
+       </div>
+       <div class="text_div">
+       <div class="img_box">
+        <li class="title">동해 도째비골스카이밸리</li>
+        <hr>
+        <li>묵호항 논골담마을에 있다. 도째비골스카이밸리와 연계해 조성한 도째비골해랑전망대는 길이 85m 해상 보도 교량이다.</li>
+       </div>
+       <div class="img_box">
+        <li class="title">안산 달전망대</li>
+        <hr>
+        <li>안산 시화방조제 가운데 우뚝 선 달전망대는 달을 모티프로 만든 공간으로 달이 움직임에 따라 시시각각 풍경이 바뀐다.</li>
+       </div>
+       <div class="img_box">
+        <li class="title">울진 등기산스카이워크</li>
+        <hr>
+        <li>울진이 품은 다채로운 푸른색을 한 번에 즐길 수 있는 곳, 바로 등기산스카이워크다.</li>
+       </div>
+    </div>
+</div>
+<footer>
+    <header class="footer_header">
+        <li>개인정보처리방침</li>
+        <li>전자우편무단수집거부</li>
+        <li>캠핑장 등록안내</li>
+        <li>미등록 운영장불법신고</li>
+    </header>
+    <hr>
+    <ul class="notice">
+        <li>서울특별시 용산구 회나무로12길 27</li>
+        <li>대표전화) 02 - 798 - 3641 ~ 3 팩스) 02 - 794 - 0822</li>
+        <li>Copyright (c) 2007 서울디지텍고등학교. All rights reserved</li>
+    </ul>
+</footer>
+
+<script src="./js/index.js"></script>
+</body>
+</html>
